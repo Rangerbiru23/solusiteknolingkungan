@@ -2,7 +2,7 @@
 
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { ArrowLeft, Shield, Eye, Database, UserRights, Cookie, Globe } from 'lucide-react'
+import { ArrowLeft, Shield, Eye, Database, Scale, Cookie, Globe } from 'lucide-react'
 
 export default function PrivacyPolicy() {
   const scrollToTop = () => {
@@ -167,7 +167,7 @@ export default function PrivacyPolicy() {
           <Card className="border-0 shadow-sm">
             <CardHeader>
               <CardTitle className="flex items-center space-x-2">
-                <UserRights className="w-6 h-6 text-blue-600" />
+                <Scale className="w-6 h-6 text-blue-600" />
                 <span>Hak Anda sebagai Pengguna</span>
               </CardTitle>
             </CardHeader>
